@@ -1,0 +1,15 @@
+drops {
+  android_build_drop {
+    build_id: "12005556"
+    target: "sdk"
+    source_file: "sdk-repo-linux-platforms-12005556.zip"
+  }
+  dest_file: "sdk-repo-linux-platforms-12005556.zip"
+  version: ""
+  version_group: "AndroidX"
+  git_project: "platform/prebuilts/fullsdk/platforms"
+  git_branch: "master"
+  transform: TRANSFORM_UNZIP
+  transform_options {
+  }
+}
